@@ -21,6 +21,13 @@ back_login_btn.addEventListener('click', function() {
     verifiers = verifiers.filter(function(v, i, a) {
         return v.name != 'pw' && v.name != 'r-pw'
     })
+    
+    // Remove password errors
+    del_login_err(nm_input, 'pw')
+    del_login_err(nm_input, 'r-pw')
+
+    del_login_err(nm_input, 'pw')
+    del_login_err(nm_input, 'r-pw')
 
     // Switch buttons
     back_login_btn.classList.add('d-none')
