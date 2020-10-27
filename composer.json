@@ -1,0 +1,12 @@
+{
+    "name": "felipe/linkly",
+    "description": "Sistema PHP/JS criado para um projeto da minha faculdade. Nada comercial.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Felipe Gomes",
+            "email": "felipenasgomes@gmail.com"
+        }
+    ],
+    "require": {}
+}
